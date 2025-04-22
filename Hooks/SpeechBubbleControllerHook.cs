@@ -120,7 +120,6 @@ public class SpeechBubbleControllerHook
             if (speechBubble.actualString.Length == 0
                 || (speechBubble.actualString.Length > 0 && speechBubble.actualString.Replace(" . ","").IsNullOrWhiteSpace()))
             {
-                Debug.Log("Nothing new: "+ timeSpentWaitingToSpeak);
                 continue;
             }
 
